@@ -1,1 +1,47 @@
-/* write your override styles here */
+body {
+    margin: 0; /* Remove all default margins */
+    padding: 0; /* Remove all default padding */
+    font-family: Arial, sans-serif; /* Standard font for consistency */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Standard readable text color */
+}
+
+/* Adjusting headings for consistency */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0; /* Removing default browser margins */
+    padding: 10px; /* Adding padding for spacing */
+    font-weight: bold; /* Bold headers */
+    color: #444; /* Slightly lighter gray for headers */
+}
+
+/* Styling hyperlinks */
+a {
+    text-decoration: none; /* Removing underlines */
+    color: #0066cc; /* Bright blue color for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+    color: #004d99; /* Darker blue hover effect */
+}
+
+/* Styling unordered and ordered lists */
+ul, ol {
+    padding-left: 20px; /* Uniform indentation */
+    margin: 10px 0; /* Adding spacing between lists */
+}
+
+/* Custom button styles */
+button {
+    background-color: #007acc; /* Bright blue button */
+    color: white; /* Contrasting white text */
+    border: none; /* Removing default borders */
+    padding: 10px 15px; /* Adding padding for clickable size */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #005fa3; /* Darker blue hover effect */
+}
+
